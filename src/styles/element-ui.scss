@@ -1,0 +1,225 @@
+// cover some element-ui styles
+
+.el-breadcrumb__inner,
+.el-breadcrumb__inner a {
+  font-weight: 400 !important;
+}
+
+.el-upload {
+  input[type='file'] {
+    display: none !important;
+  }
+}
+
+.el-upload__input {
+  display: none;
+}
+
+.cell {
+  .el-tag {
+    margin-right: 0px;
+  }
+}
+
+.small-padding {
+  .cell {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+}
+
+.fixed-width {
+  .el-button--mini {
+    padding: 7px 10px;
+    // width: 60px;
+  }
+}
+
+.status-col {
+  .cell {
+    padding: 0 10px;
+    text-align: center;
+
+    .el-tag {
+      margin-right: 0px;
+    }
+  }
+}
+
+// to fixed https://github.com/ElemeFE/element/issues/2461
+.el-dialog {
+  transform: none;
+  left: 0;
+  position: relative;
+  margin: 0 auto;
+}
+
+// refine element ui upload
+.upload-container {
+  .el-upload {
+    width: 100%;
+
+    .el-upload-dragger {
+      width: 100%;
+      height: 200px;
+    }
+  }
+}
+
+// dropdown
+.el-dropdown-menu {
+  a {
+    display: block;
+  }
+}
+
+// fix date-picker ui bug in filter-item
+.el-range-editor.el-input__inner {
+  display: inline-flex !important;
+}
+
+// to fix el-date-picker css style
+.el-range-separator {
+  box-sizing: content-box;
+}
+
+//collapse css style
+i.el-collapse-item__arrow.el-icon-arrow-right {
+  margin-right: 300px;
+}
+
+//form css style
+.app-container .el-form-item {
+  margin-bottom: 20px;
+}
+label.el-form-item__label {
+  font-weight: 400;
+}
+
+//button css style
+.el-button--success {
+  background-color: #1abc9c;
+  border-color: #1abc9c;
+}
+
+//pagination css style
+span.el-pagination__sizes {
+  display: none !important;
+}
+
+.el-transfer-panel .el-transfer-panel__header .el-checkbox .el-checkbox__label {
+  color: #666666 !important;
+}
+
+//dialog弹窗样式
+
+.el-dialog__header {
+  background: #f2f2f2;
+}
+//穿梭框样式
+.el-transfer__buttons {
+  width: 161px;
+}
+.el-button--primary.is-disabled,
+.el-button--primary.is-disabled:hover,
+.el-button--primary.is-disabled:focus,
+.el-button--primary.is-disabled:active {
+  margin-left: 0px;
+  width: 51px;
+}
+.el-transfer__buttons {
+  width: 117px;
+}
+.el-table .cell {
+  white-space: nowrap;
+}
+.modalDetails .el-transfer-panel {
+  width: 284px !important;
+}
+.transferClass .el-input--medium .el-input__inner {
+  height: 26px !important;
+}
+.el-form-item {
+  margin-bottom: 0px !important;
+}
+form.el-form.dataList.el-form--inline {
+  margin-top: 22px;
+}
+.el-form-item.filterSearch.el-form-item--medium {
+  border-bottom: none;
+}
+
+// 穿梭框样式
+.advancedFilter .el-dialog__body {
+  height: 600px;
+  overflow: auto;
+}
+.climateConfiger .el-dialog__body {
+  height: 40px;
+}
+.advancedFilter .el-dialog__body,
+.advancedFilters .el-dialog__body {
+  height: 430px;
+  overflow: auto;
+}
+.advancedFilters .el-dialog {
+  width: 60%;
+}
+.advancedFilter .el-dialog {
+  width: 60%;
+}
+.advancedFilters .el-transfer-panel {
+  width: 254px;
+}
+.advancedFilter .el-transfer-panel__item.el-checkbox .el-checkbox__label {
+  overflow: inherit;
+}
+.advancedFilters .el-transfer-panel__item.el-checkbox .el-checkbox__label {
+  overflow: inherit;
+}
+
+.airportClass .el-form-item__content {
+  width: 400px;
+}
+
+.monitorDetailClass canvas {
+  top: 20px !important;
+}
+
+.weatherCase .el-form-item__content{
+  width: 244px !important;
+}
+.airport .el-select__tags{
+  max-width: 173px !important;
+}
+// .dataTable .el-table .cell {
+//   overflow: initial;
+// }
+.weatherClass .el-dialog__body{
+  display: flex !important;
+}
+.elDialogMongoDB .el-dialog__body{
+  display: block !important;
+}
+.fileDetails .el-dialog__body{
+  display: block !important;
+}
+.addRootName .el-dialog__body{
+  display: block !important;
+}
+.uploadClass .el-upload-list__item{
+    top: -53px !important;
+    z-index: 10000;
+    position: absolute !important;
+}
+.climateClass .el-dialog__body{
+  display: block !important;
+}
+.el-dialog__body{
+  overflow: auto !important;
+  display: block !important;
+}
+
+.el-table th.gutter{
+  display: table-cell!important;
+}
